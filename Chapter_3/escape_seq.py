@@ -6,5 +6,5 @@ b = "Harry is a god boy\\n but not a";
 print(b)
 
 # for printing double commas in string 
-c = "Harry is a god boy\" but not a bad boy\" ok"
+c = "Harry is a god \"boy\" but not a bad \"boy\" ok"
 print(c)
