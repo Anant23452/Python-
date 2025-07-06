@@ -1,0 +1,140 @@
+
+
+## 🧠 What is **NumPy**?
+
+### 🔸 NumPy = Numerical Python
+
+It’s a powerful **Python library** for:
+
+* **Working with arrays**
+* **Mathematical operations**
+* **Linear algebra, statistics, and more**
+
+---
+
+## 🔧 How to Install NumPy
+
+In VS Code terminal or CMD, type:
+
+```bash
+pip install numpy
+```
+
+---
+
+## 🔥 Why Use NumPy?
+
+| Feature  | NumPy                             | Python List    |
+| -------- | --------------------------------- | -------------- |
+| Speed    | Very fast                         | Slow           |
+| Storage  | Less memory                       | More memory    |
+| Features | Matrix, statistics, reshape, etc. | Only basic ops |
+
+---
+
+## 🛠️ Basic NumPy Code
+
+### 1️⃣ Import NumPy:
+
+```python
+import numpy as np
+```
+
+---
+
+### 2️⃣ Create Arrays:
+
+```python
+arr = np.array([1, 2, 3, 4])
+print(arr)
+```
+
+Output:
+
+```
+[1 2 3 4]
+```
+
+---
+
+### 3️⃣ 2D Array:
+
+```python
+arr2 = np.array([[1, 2], [3, 4]])
+print(arr2)
+```
+
+---
+
+### 4️⃣ Array Properties:
+
+```python
+print(arr.ndim)    # 1 (dimension)
+print(arr.shape)   # (4,)
+print(arr.size)    # 4 (elements)
+print(arr.dtype)   # int32 / int64
+```
+
+---
+
+## ➕ NumPy Operations
+
+```python
+a = np.array([10, 20, 30])
+b = np.array([1, 2, 3])
+
+print(a + b)  # [11 22 33]
+print(a * b)  # [10 40 90]
+print(a / b)  # [10. 10. 10.]
+```
+
+---
+
+## 📐 Useful NumPy Functions
+
+| Function                 | Use                 |
+| ------------------------ | ------------------- |
+| `np.zeros((2,3))`        | 2x3 matrix of zeros |
+| `np.ones((3,3))`         | 3x3 matrix of ones  |
+| `np.arange(0,10,2)`      | \[0 2 4 6 8]        |
+| `np.linspace(1,5,4)`     | \[1. 2.33 3.66 5.]  |
+| `np.reshape(arr, (2,2))` | Change shape        |
+| `np.sum(arr)`            | Add all elements    |
+
+---
+
+## 🎯 Mini Project Example: Sum of Even Numbers in Array
+
+```python
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5, 6])
+even = arr[arr % 2 == 0]
+print("Even Numbers:", even)
+print("Sum:", np.sum(even))
+```
+
+---
+
+## 🧠 Summary
+
+| Keyword                | Meaning              |
+| ---------------------- | -------------------- |
+| `array()`              | Create array         |
+| `ndim`                 | Number of dimensions |
+| `shape`                | Rows x Columns       |
+| `reshape()`            | Change shape         |
+| `sum(), mean(), max()` | Math functions       |
+
+---
+
+## 💛 Want More?
+
+Tu bole toh main bana du:
+
+* Matrix multiplication project?
+* Graph from array using `matplotlib`?
+* MCQs/practice sheet for NumPy?
+
+Bas kehna — main tere liye full ready hu 😄
+Bole toh — **Next topic kya hoga meri data queen?** 🐍📊
