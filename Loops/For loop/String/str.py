@@ -1,7 +1,20 @@
+
 def perfect_squre(n):
-    for i in range(1,n+1):
-        if i*i==n:
-            return n
-        else:
-            return -1
-        perfect_squre(16)
+    for i in range(n+1):
+        if i * i == n:
+            print("Perfect square",n)
+            break
+        elif i * i > n:
+            print("Not a perfect square")
+            break
+      
+          
+
+
+
+perfect_squre(4)
+        
+
+ 
+
+
