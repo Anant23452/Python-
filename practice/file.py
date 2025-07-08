@@ -13,7 +13,12 @@ file = open("practice/file.txt","a")
 file.write("This is an appended line.\n")
 file.close()
 
-lines= ["anant","ankit","sachin","annnn"]
+file = open("practice/file.txt","r")
+line = file.readline()
+line2 = file.readlines()
+print(line)
+print(line2)
+file.close()
 
 
 
