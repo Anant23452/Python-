@@ -6,3 +6,11 @@ for word in words:
     print(word)  # Print each word
     # You can also perform other operations on each word if needed
 print(f"Total words: {count}")  # Print the total number of words
+
+m=0
+name = "John Doe"
+for c in name:
+    m=m+1
+    print(c,)  # Print each character in the name
+
+print(f"Total characters: {m}")  # Print the total number of characters
